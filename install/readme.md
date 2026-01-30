@@ -1,0 +1,41 @@
+-- [[ RAW ELEMENTS ]] --
+['carbon'] = {['name'] = 'carbon', ['label'] = 'Carbon', ['weight'] = 100, ['type'] = 'item', ['image'] = 'carbon.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['description'] = 'Atomic No. 6: Essential for organic life and chemistry.'},
+['hydrogen_tank'] = {['name'] = 'hydrogen_tank', ['label'] = 'Hydrogen Tank', ['weight'] = 500, ['type'] = 'item', ['image'] = 'hydrogen.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['description'] = 'Atomic No. 1: Highly flammable gas.'},
+['oxygen_tank'] = {['name'] = 'oxygen_tank', ['label'] = 'Oxygen Tank', ['weight'] = 500, ['type'] = 'item', ['image'] = 'oxygen.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['description'] = 'Atomic No. 8: Industrial grade oxygen.'},
+['nitrogen_tank'] = {['name'] = 'nitrogen_tank', ['label'] = 'Nitrogen Tank', ['weight'] = 500, ['type'] = 'item', ['image'] = 'nitrogen.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['description'] = 'Atomic No. 7: Stable gas used for cooling and explosives.'},
+['sulfur'] = {['name'] = 'sulfur', ['label'] = 'Sulfur Powder', ['weight'] = 200, ['type'] = 'item', ['image'] = 'sulfur.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['description'] = 'Atomic No. 16: Yellow reactive powder.'},
+['chlorine'] = {['name'] = 'chlorine', ['label'] = 'Chlorine Canister', ['weight'] = 400, ['type'] = 'item', ['image'] = 'chlorine.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['description'] = 'Atomic No. 17: Toxic cleaning and reacting agent.'},
+['sodium_chunk'] = {['name'] = 'sodium_chunk', ['label'] = 'Sodium Chunk', ['weight'] = 150, ['type'] = 'item', ['image'] = 'sodium.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['description'] = 'Atomic No. 11: Highly reactive metal. Keep away from water!'},
+['potassium'] = {['name'] = 'potassium', ['label'] = 'Potassium', ['weight'] = 150, ['type'] = 'item', ['image'] = 'potassium.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['description'] = 'Atomic No. 19: Alkali metal used in various reactions.'},
+['aluminum'] = {['name'] = 'aluminum', ['label'] = 'Aluminum Scrap', ['weight'] = 300, ['type'] = 'item', ['image'] = 'aluminum.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['description'] = 'Atomic No. 13: Lightweight metal for thermite.'},
+['iron_filings'] = {['name'] = 'iron_filings', ['label'] = 'Iron Filings', ['weight'] = 300, ['type'] = 'item', ['image'] = 'iron.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['description'] = 'Atomic No. 26: Small particles of iron.'},
+['iodine_crystal'] = {['name'] = 'iodine_crystal', ['label'] = 'Iodine Crystals', ['weight'] = 100, ['type'] = 'item', ['image'] = 'iodine.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['description'] = 'Atomic No. 53: Dark crystals used as a precursor.'},
+['lithium'] = {['name'] = 'lithium', ['label'] = 'Lithium Strips', ['weight'] = 100, ['type'] = 'item', ['image'] = 'lithium.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['description'] = 'Atomic No. 3: Metal extracted from high-end batteries.'},
+
+-- [[ FINAL PRODUCTS (The Alchemist's Bench) ]] --
+['alchemist_bench'] = {['name'] = 'alchemist_bench', ['label'] = 'The Alchemists Bench', ['weight'] = 15000, ['type'] = 'item', ['image'] = 'bench.png', ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'A professional-grade chemical laboratory station.'},
+['adrenaline_shot'] = {['name'] = 'adrenaline_shot', ['label'] = 'Adrenaline Shot', ['weight'] = 100, ['type'] = 'item', ['image'] = 'adrenaline.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'A life-saving injection for critical situations.'},
+['thermite_paste'] = {['name'] = 'thermite_paste', ['label'] = 'Thermite Paste', ['weight'] = 400, ['type'] = 'item', ['image'] = 'thermite.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Burns at extreme temperatures. Use for melting locks.'},
+['mustard_gas'] = {['name'] = 'mustard_gas', ['label'] = 'Mustard Gas Canister', ['weight'] = 800, ['type'] = 'item', ['image'] = 'gas.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Lethal chemical agent. Extremely dangerous.'},
+['industrial_bleach'] = {['name'] = 'industrial_bleach', ['label'] = 'Industrial Bleach', ['weight'] = 1000, ['type'] = 'item', ['image'] = 'bleach.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['description'] = 'Concentrated sodium hypochlorite.'},
+
+-- [[ ELEMENTS ]] --
+['carbon'] = { label = 'Carbon', weight = 100, stack = true, close = true, description = 'Atomic No. 6: Raw carbon for synthesis.' },
+['hydrogen_tank'] = { label = 'Hydrogen Tank', weight = 500, stack = true, close = true, description = 'Atomic No. 1: Pressurized hydrogen gas.' },
+['oxygen_tank'] = { label = 'Oxygen Tank', weight = 500, stack = true, close = true, description = 'Atomic No. 8: Pressurized oxygen gas.' },
+['nitrogen_tank'] = { label = 'Nitrogen Tank', weight = 500, stack = true, close = true, description = 'Atomic No. 7: Pressurized nitrogen gas.' },
+['sulfur'] = { label = 'Sulfur Powder', weight = 200, stack = true, close = true, description = 'Atomic No. 16: Yellow powder for acid production.' },
+['chlorine'] = { label = 'Chlorine Canister', weight = 400, stack = true, close = true, description = 'Atomic No. 17: Industrial chlorine gas.' },
+['sodium_chunk'] = { label = 'Sodium Chunk', weight = 150, stack = true, close = true, description = 'Atomic No. 11: Metallic sodium.' },
+['potassium'] = { label = 'Potassium', weight = 150, stack = true, close = true, description = 'Atomic No. 19: Pure potassium chunks.' },
+['aluminum'] = { label = 'Aluminum Scrap', weight = 300, stack = true, close = true, description = 'Atomic No. 13: Ground aluminum metal.' },
+['iron_filings'] = { label = 'Iron Filings', weight = 300, stack = true, close = true, description = 'Atomic No. 26: Pure iron dust.' },
+['iodine_crystal'] = { label = 'Iodine Crystals', weight = 100, stack = true, close = true, description = 'Atomic No. 53: Precursor for high-grade drugs.' },
+['lithium'] = { label = 'Lithium Strips', weight = 100, stack = true, close = true, description = 'Atomic No. 3: Highly reactive strips.' },
+
+-- [[ EQUIPMENT & PRODUCTS ]] --
+['alchemist_bench'] = { label = 'The Alchemists Bench', weight = 15000, stack = false, close = true, description = 'A modular chemistry station for experimentation.' },
+['adrenaline_shot'] = { label = 'Adrenaline Shot', weight = 100, stack = true, close = true, description = 'Increases heart rate and awareness.' },
+['nitroglycerin'] = { label = 'Nitroglycerin', weight = 300, stack = true, close = true, description = 'Highly volatile liquid explosive.' },
+['methamphetamine'] = { label = 'Methamphetamine (Pure)', weight = 50, stack = true, close = true, description = 'High-grade crystalline stimulant.' },
+['chloroform'] = { label = 'Chloroform', weight = 250, stack = true, close = true, description = 'Used to induce unconsciousness.' },
