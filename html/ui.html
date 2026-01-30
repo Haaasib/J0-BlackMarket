@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J0 BlackMarket</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <img src="images/phonebg.png" alt="" class="phone-bg">
+    <div class="phone-display" id="screen">
+        <div class="status-bar">
+            <div class="signal">
+                <div class="sig-bar" style="height:3px"></div>
+                <div class="sig-bar" style="height:5px"></div>
+                <div class="sig-bar" style="height:8px"></div>
+                <div class="sig-bar" style="height:10px"></div>
+                <div class="sig-bar" style="height:13px"></div>
+            </div>
+            <span id="clock">12:00</span>
+            <div class="batt"></div>
+        </div>
+
+        <div class="content" id="main-content"></div>
+
+        <div class="footer">
+            <span id="btn-left">SELECT</span>
+            <span id="btn-right">BACK</span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
