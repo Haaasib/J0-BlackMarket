@@ -1,4 +1,4 @@
-RegisterCommand("openBurnerPhone", function()
+RegisterNetEvent('J0-BlackMarket:client:openBurnerPhone', function()
     FW.SendNuiMessage('openBurnerPhone', {
         data = Config.BlackMarketSettings,
         locale = L

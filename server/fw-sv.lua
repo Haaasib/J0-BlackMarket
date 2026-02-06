@@ -213,26 +213,20 @@ end
 FW.RegisterUsableItem = function(name)
     if hasQs then
         exports['qs-inventory']:CreateUsableItem(name, function(src, item)
-            if name == 'checkbook' then TriggerClientEvent('J0-Banking:openCheckbook', src) 
-            elseif name == 'bank_check' then TriggerClientEvent('J0-Banking:ViewCheck', src)
-            elseif name == 'flecca_card' then TriggerClientEvent('J0-Banking:openCardNui', src) end
+            if name == 'burner_phone' then TriggerClientEvent('J0-BlackMarket:client:openBurnerPhone', src) end
         end)
     elseif isQB then
         Core.Functions.CreateUseableItem(name, function(src, item)
-            if name == 'checkbook' then TriggerClientEvent('J0-Banking:openCheckbook', src)         
-            elseif name == 'bank_check' then TriggerClientEvent('J0-Banking:ViewCheck', src)
-            elseif name == 'flecca_card' then TriggerClientEvent('J0-Banking:openCardNui', src) end
+            if name == 'burner_phone' then TriggerClientEvent('J0-BlackMarket:client:openBurnerPhone', src) end
         end)
     elseif isESX then
         Core.RegisterUsableItem(name, function(src, item)
-            if name == 'checkbook' then TriggerClientEvent('J0-Banking:openCheckbook', src) 
-            elseif name == 'bank_check' then TriggerClientEvent('J0-Banking:ViewCheck', src)
-            elseif name == 'flecca_card' then TriggerClientEvent('J0-Banking:openCardNui', src) end
+            if name == 'burner_phone' then TriggerClientEvent('J0-BlackMarket:client:openBurnerPhone', src) end
         end)
     end
 end
 
-FW.RegisterUsableItem('checkbook')
+FW.RegisterUsableItem('burner_phone')
 
 
 FW.SendMail = function(subject, message, src)
